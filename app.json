@@ -1,10 +1,19 @@
 {
   "expo": {
+    "name": "jobsift",
+    "slug": "jobsift",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "scheme": "acme",
     "web": {
       "bundler": "metro"
     },
-    "name": "jobsift",
-    "slug": "jobsift"
+    "ios": {
+      "bundleIdentifier": "com.jobsift.app"
+    },
+    "android": {
+      "package": "com.jobsift.app"
+    }
   }
 }
